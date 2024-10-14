@@ -8,5 +8,5 @@ module.exports = defineConfig({
     },
   },
   chromeWebSecurity: false,
-  projectId: "ut8um8"
+  projectId: "ut8um8",
 });
