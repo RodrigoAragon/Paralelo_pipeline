@@ -9,7 +9,7 @@ pipeline {
             parallel {
                 stage('Slave 1') {
                     agent {
-                        label "Agent2_1"
+                        label "Agente2_1"
                     }
                     steps {
                         git url: 'https://github.com/RodrigoAragon/Paralelo_pipeline'
@@ -22,7 +22,7 @@ pipeline {
  
                 stage('Slave 2') {
                     agent {
-                        label "Agent2_2"
+                        label "Agente2_2"
                     }
                     steps {
                         git url: 'https://github.com/RodrigoAragon/Paralelo_pipeline'
@@ -35,7 +35,7 @@ pipeline {
  
                 stage('Slave 3') {
                     agent {
-                        label "Agent2_3"
+                        label "Agente2_3"
                     }
                     steps {
                         git url: 'https://github.com/RodrigoAragon/Paralelo_pipeline'
@@ -48,7 +48,7 @@ pipeline {
  
                 stage('Slave 4') {
                     agent {
-                        label "Agent2_4"
+                        label "Agente2_4"
                     }
                     steps {
                         git url: 'https://github.com/RodrigoAragon/Paralelo_pipeline'
